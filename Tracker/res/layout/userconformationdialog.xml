@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="fill_parent"
+    android:background="@color/Orange"
+    android:orientation="vertical" >
+       	     
+    <TextView
+        android:id="@+id/ConformationdisplayText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dp"
+        android:text="Thank You...."
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ConformationOkbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_gray_black_br"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Yes"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/invisiblebutton"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/ConformationCancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_gray_black_br"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingRight="5dip"
+            android:text="No" />
+
+    </LinearLayout>
+
+	          	 </LinearLayout>
+ 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlertLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical" >
+       
+     <TextView
+         android:id="@+id/TitleisplayText"
+         android:layout_width="fill_parent"
+         android:layout_height="60dp"
+         android:background="@color/Black"
+         android:gravity="left|center_vertical"
+         android:paddingLeft="20dp"
+         android:paddingRight="5dp"
+         android:text="Message"
+         android:textColor="@color/White"
+         android:textSize="20sp"
+         android:visibility="visible" />
+    	     
+    <TextView
+        android:id="@+id/ConformationdisplayText"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:text=" Thank You...."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ConformationCancelButton"
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/TOP_bg"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingRight="5dip"
+            android:text="No"
+            android:textColor="@color/White"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/ConformationOkbutton"
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/TOP_bg"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Yes"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:visibility="visible" />
+        
+        <Button
+            android:id="@+id/Transferbutton"
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_gray_black_br"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Transfer"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+	          	 </LinearLayout>
+ 
