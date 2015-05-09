@@ -120,6 +120,7 @@ public class HomeActivity extends TabActivity implements SensorEventListener{
 			
 			LocationAutoSync();
 			
+			//Changed Set
 			
 			//TESTING
 			
