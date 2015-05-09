@@ -120,6 +120,9 @@ public class HomeActivity extends TabActivity implements SensorEventListener{
 			
 			LocationAutoSync();
 			
+			
+			//TESTING
+			
 		}
 		catch (Exception e) {
 			Commondata.WriteLog("HomeActivity", "Oncreate", e.toString());
